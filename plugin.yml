@@ -1,0 +1,16 @@
+name: AzuriomIntegration
+main: Azuriom\Main
+version: 1.0.0
+api: [1.12.0]
+author: YourName
+depend: [KXMySQL, KXRanks]
+
+commands:
+  checkpurchases:
+    description: "Manually checks for new purchases from the Azuriom store."
+    usage: "/checkpurchases [player]"
+    permission: azuriom.command.check
+
+permissions:
+  azuriom.command.check:
+    default: op

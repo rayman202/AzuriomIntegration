@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+# Rank and Package Configuration
+# This file links the price of a package from your Azuriom store to a rank
+# in your KXRanks plugin.
+#
+# - The key (e.g., "5.00") must be the EXACT price of the package in the store.
+# - 'name' is the name of the rank in KXRanks.
+# - 'duration_days' is how long the rank should last. Use 0 for permanent.
+# ---------------------------------------------------------------------------
+
+"0.00":
+  name: "Owner"
+  duration_days: 1
+
+"5.00":
+  name: "Nitro"
+  duration_days: 30
+
+"10.00":
+  name: "Sponsor"
+  duration_days: 0 # 0 = inf
