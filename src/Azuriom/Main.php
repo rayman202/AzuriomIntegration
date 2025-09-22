@@ -13,7 +13,7 @@ class Main extends PluginBase {
     public $rankConfig;
 
     public function onEnable() {
-        @mkdir($this->getDataFolder());
+        //@mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->saveResource("ranks.yml");
 
